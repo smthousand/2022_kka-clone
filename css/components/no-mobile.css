@@ -19,7 +19,7 @@
 #no-mobile h1 {
     font-size: var(--h1);
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: var(--warning);
 }
 
