@@ -1,0 +1,35 @@
+.badge {
+    background: var(--tertiary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--primary);
+}
+
+.badge-lg {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.badge-md {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.badge-sm {
+    width: 7px;
+    height: 7px;
+    border-radius: 3.5px;
+}
+
+.badge-position {
+    position: absolute;
+}
+
+.badge-success {
+    background: var(--success);    
+}

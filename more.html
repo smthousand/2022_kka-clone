@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More - Kokoa Clone</title>
+    <!-- Command CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">More</h1>
+        <div class="screen-header__icons">
+
+            <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+            <span><i class="fa-solid fa-music fa-lg"></i></span>
+            <a href="settings.html">
+                <span><i class="fa-solid fa-gear fa-lg"></i></span>
+                <span class="badge badge-sm badge-position screen-header__icons_update"></span>
+            </a>
+        </div>
+    </header>
+
+    <main class="main-screen more-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="images/smthousand.png" alt="" class="user-component__avatar user-component__avatar--lg">
+                <div class="user-component__text">
+                    <h3 class="user-component__title">Sumin</h3>
+                    <h3 class="user-component__subtitle">+82 10 phone number <i class="fa-solid fa-circle-check"></i>
+                    </h3>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <i class="fa-solid fa-toggle-on fa-2x"></i>
+            </div>
+        </div>
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-calendar-days"></i>
+                <span>Calendar</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-download">
+                    <span class="badge badge-sm badge-position icon-row__icon-update"></span>
+                </i>
+                <span>Talk Drive</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-face-grin"></i>
+                <span>Emoticons</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-brush"></i>
+                <span>Themes</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-wallet"></i>
+                <span>Wallet</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-comments"></i>
+                <span>Openchat</span>
+            </div>
+        </div>
+
+        <div class="more-suggestions">
+            <h6 class="more-suggestions__title">Suggestions</h6>
+            <div class="more-suggestions__icons">
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-image">
+                        <img src="images/discord.png" alt=""></img>
+                    </div>
+                    <span class="more-suggestions__icon-text">Discord</span>
+                </div>
+
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-image">
+                        <img src="images/twitter.png" alt=""></img>
+                    </div>
+                    <span class="more-suggestions__icon-text">Twitter</span>
+                </div>
+
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-image">
+                        <img src="images/facebook.png" alt=""></img>
+                    </div>
+                    <span class="more-suggestions__icon-text">Facebook</span>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a href="friends.html" class="nav__link">
+                    <i class="fa-regular fa-user fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a href="chats.html" class="nav__link">
+                    <i class="fa-regular fa-comment fa-2x"></i>
+                    <span class="badge badge-lg badge-position nav__notification">13</span>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a href="find.html" class="nav__link">
+                    <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn"><a href="more.html" class="nav__link">
+                    <i class="fa-solid fa-ellipsis fa-2x"></i>
+                    <span class="badge badge-sm badge-position nav__update"></span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="no-mobile">
+        <i class="fa-solid fa-triangle-exclamation"></i>
+        <h1>Warning!</h1>
+        <span>Your screen is too big <br>
+            Please resizing to Mobile Environment </span>
+      </div>
+
+    <!-- Script -->
+    <script src="https://kit.fontawesome.com/726a7d5763.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+/*@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);*/
+/*Better to Add CSS file Here*/
+/*NOT HTML HEAD*/
+@import "reset.css";
+@import "variables.css";
+
+/*COMPONENTS*/
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/badge.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
+
+/*SCREENS*/
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--primary);
+    line-height: 150%;
+    letter-spacing: -.2px;
+    padding-top: 35px;
+    /* 상단 status-bar 겹침없이 하기 위함 */
+    padding-bottom: 75px;
+    /* 하단 nav 겹침없이 하기 위함 */
+
+    -ms-overflow-style: none;
+}
+body::-webkit-scrollbar {
+    display: none;
+  } /* scroll */
+
+.main-screen,
+.screen-header,
+.alt-header {
+    padding: var(--horizontal-space);
+}

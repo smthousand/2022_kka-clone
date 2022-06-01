@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chats - Kokoa Clone</title>
+    <!-- Command CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">Chats</h1>
+        <div class="screen-header__icons">
+            <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+            <span><i class="fa-solid fa-user-plus fa-lg"></i></span>
+            <span><i class="fa-solid fa-music fa-lg"></i></span>
+            <a href="settings.html"><span><i class="fa-solid fa-gear fa-lg"></i></span></a>
+        </div>
+    </header>
+
+    <main class="main-screen">
+        <a href="chat-latte.html">
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="images/latte.png" alt="" class="user-component__avatar user-component__avatar--md">
+                    <div class="user-component__text">
+                        <h3 class="user-component__title">Latte</h3>
+                        <h3 class="user-component__subtitle">shut up</h3>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">12:11</span>
+                </div>
+            </div>
+        </a>
+
+        <a href="chat-podo.html">
+            <div class="user-component">
+                <div class="user-component__column">
+                    <span class="user-component__online badge badge-md badge-position badge-success avarter-lg"></span>
+                    <img src="images/podo.png" alt="" class="user-component__avatar user-component__avatar--md">
+                    <div class="user-component__text">
+                        <h3 class="user-component__title">Podo</h3>
+                        <h3 class="user-component__subtitle">OK 😎 i need some break bye</h3>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">01:22</span>
+                </div>
+            </div>
+        </a>
+
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="images/meoruteari.png" alt="" class="user-component__avatar user-component__avatar--md">
+                <div class="user-component__text">
+                    <h3 class="user-component__title">Meoru & Teari</h3>
+                    <h3 class="user-component__subtitle">SO I LOVE YOUUUUU 💕</h3>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <span class="user-component__time">18:42</span>
+                <span class="badge badge-lg">12</span>
+            </div>
+        </div>
+
+    </main>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a href="friends.html" class="nav__link">
+                    <i class="fa-regular fa-user fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a href="chats.html" class="nav__link">
+                    <i class="fa-solid fa-comment fa-2x"></i>
+                    <span class="badge badge-lg badge-position nav__notification">13</span>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a href="find.html" class="nav__link">
+                    <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn"><a href="more.html" class="nav__link">
+                    <i class="fa-solid fa-ellipsis fa-2x"></i>
+                    <span class="badge badge-sm badge-position nav__update"></span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="no-mobile">
+        <i class="fa-solid fa-triangle-exclamation"></i>
+        <h1>Warning!</h1>
+        <span>Your screen is too big <br>
+            Please resizing to Mobile Environment </span>
+      </div>
+
+    <!-- Script -->
+    <script src="https://kit.fontawesome.com/726a7d5763.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

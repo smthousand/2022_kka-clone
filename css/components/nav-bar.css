@@ -1,0 +1,44 @@
+.nav {
+    width: 100%;
+    background-color: var(--secondary);
+    padding: 20px 50px;
+    border-top: var(--main-border);
+    position: fixed;
+    bottom: 0;
+    box-sizing: border-box;
+}
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__link {
+    position: relative;
+    color: var(--primary);
+}
+
+@keyframes notificationAnimation {
+    0% {
+        transform: none;
+    }
+
+    50% {
+        transform: translateY(-7px);
+    }
+
+    100% {
+        transform: none;
+    }
+}
+
+.nav__notification {
+    left: 23px;
+    bottom: 15px;
+    animation: notificationAnimation 3s ease-in-out infinite;
+}
+
+.nav__update {
+    left: 30px;
+    bottom: 25px;
+}

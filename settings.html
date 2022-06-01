@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - Kokoa Clone</title>
+    <!-- Command CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="more.html"><i class="fa-solid fa-angle-left fa-2x"></i></a>
+        </div>
+        <div class="alt-header__column">
+            <h2 class="alt-header__title">Settings</h2></a>
+        </div>
+        <div class="alt-header__column">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+        </div>
+    </header>
+
+    <main class="main-screen">
+        <ul class="settings-list">
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fa-solid fa-bullhorn"></i>
+                    <span>Notices</span>
+                </div>
+                <div class="settings__setting-column"></div>
+
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fa-solid fa-flask"></i>
+                    <span>Kokoa Lab</span>
+                </div>
+                <div class="settings__setting-column"></div>
+
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fa-solid fa-inbox"></i>
+                    <span>Version</span>
+                </div>
+                <div class="settings__setting-column">
+                    <span>Latest Version</span>
+                </div>
+
+
+            </li>
+        </ul>
+    </main>
+
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a href="friends.html" class="nav__link">
+                    <i class="fa-regular fa-user fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a href="chats.html" class="nav__link">
+                    <i class="fa-regular fa-comment fa-2x"></i>
+                    <span class="badge badge-lg badge-position nav__notification">13</span>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a href="find.html" class="nav__link">
+                    <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn"><a href="more.html" class="nav__link">
+                    <i class="fa-solid fa-ellipsis fa-2x"></i>
+                    <span class="badge badge-sm badge-position nav__update"></span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="no-mobile">
+        <i class="fa-solid fa-triangle-exclamation"></i>
+        <h1>Warning!</h1>
+        <span>Your screen is too big <br>
+            Please resizing to Mobile Environment </span>
+    </div>
+
+    <!-- Script -->
+    <script src="https://kit.fontawesome.com/726a7d5763.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
